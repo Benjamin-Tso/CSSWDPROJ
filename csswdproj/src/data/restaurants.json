@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "name",
+        "cuisine_type" : "cuisine_type",
+        "price" : {
+            "low" : "low",
+            "high" : "high"
+        }, 
+        "operation" : {
+            "start" : "start",
+            "end" : "end"
+        },     
+        "image" : "image",
+        "site" : "site",
+        "gmap_iframe" : "gmap_iframe"
+    }
+]
