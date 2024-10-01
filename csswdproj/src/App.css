@@ -50,3 +50,6 @@ iframe{
   height: auto;
   transform: translate(-20%,0);
 }
+footer {
+  text-align: center;
+}
