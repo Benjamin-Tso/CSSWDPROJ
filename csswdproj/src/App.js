@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import './App.css';
 import Restaurant from "./components/restaurant"
+import r_data from "./data/restaurants.json"
 function App() {
-  const [restaurants, setRestaurants] = useState([])
   return (
     <div className="App">
       <header>
@@ -12,7 +11,7 @@ function App() {
         <article>
           <h2 id="header2">Food Nearby Tech</h2>
           {
-            restaurants.map((data, idx) =>
+            r_data.map((data, idx) =>
               <Restaurant restaurant_data={data} key={idx}/>
             )
           }
